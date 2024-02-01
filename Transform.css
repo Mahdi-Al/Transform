@@ -4,17 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(245, 213, 245);
+    background-color: rgb(255, 189, 255);
 }
 
- .sec-2 {
-    width: 100vw;
-    height: 20vh;
-    margin-top: 4em;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-around;
- }
+
 .sec-1{
     width: 100vw;
     height: 20vh;
@@ -31,7 +24,7 @@ body{
      box-shadow: -6px 5px 1px 29px white;
  } 
   .child1-1 {
-    background-color: purple;
+    background-color: rgb(219, 161, 219);
     width: 120px;
     height: 120px;
    transition: all linear 0.3s;
@@ -39,18 +32,93 @@ body{
  section .child1-1:hover {
   transform: rotate(60deg); 
  }
- .child2 {
-    width: 120px;
-    height: 120px;
-     background-color: gray;
-       box-shadow: -6px 5px 1px 29px white;
- }
-.child2-2 {
-    background-color: purple;
+.child1-2 {
+    background-color: rgba(219, 161, 219,0.8);
     width: 120px;
     height: 120px;
    transition: all linear 0.3s;
 }
- /* section .child2-2:hover {
-
- } */
+ section .child1-2:hover {
+  transform: rotateX(45deg) ; 
+ }
+  .child1-3 {
+    background-color: rgba(219, 161, 219,0.8);
+    width: 120px;
+    height: 120px;
+   transition: all linear 0.3s;
+  }
+  section .child1-3:hover {
+    transform: rotatey(55deg);
+  }
+  .child1-4 {
+    background-color: rgba(219, 161, 219, 0.8);
+    width: 120px;
+    height: 120px;
+   transition: all linear 0.3s;
+  }
+  section .child1-4:hover {
+    transform: scale(2);
+  }
+  .child1-5 {
+    background-color: rgba(219, 161, 219,0.8);
+    width: 120px;
+    height: 120px;
+   transition: all linear 0.3s;
+  }
+  section .child1-5:hover {
+   transform: scaleX(2);
+  }
+ .sec-2 {
+    width: 100vw;
+    height: 20vh;
+    margin-top: 4em;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+ }
+ .child2-1 {
+  background-color: rgba(219, 161, 219,0.8);
+  width: 120px;
+  height: 120px;
+ transition: all linear 0.3s;
+ }
+ section .child2-1:hover {
+  transform: scaleY(1.7);
+ }
+ .child2-2 {
+  background-color: rgba(219, 161, 219,0.8);
+  width: 120px;
+  height: 120px;
+ transition: all linear 0.3s;
+ }
+ section .child2-2:hover {
+  transform: skewX(45deg);
+ }
+ .child2-3 {
+  background-color: rgba(219, 161, 219,0.8);
+  width: 120px;
+  height: 120px;
+ transition: all linear 0.3s;
+ }
+ section .child2-3:hover {
+  transform: skewY(45deg);
+ }
+ .child2-4 {
+  background-color: rgba(219, 161, 219,0.8);
+  width: 120px;
+  height: 120px;
+ transition: all linear 0.3s;
+ }
+ section .child2-4:hover {
+  transform: translate(30px, 30px);
+ }
+ .child2-5 {
+  background-color: rgba(219, 161, 219,0.8);
+  width: 120px;
+  height: 120px;
+ transition: all linear 0.3s;
+ }
+ section .child2-5:hover {
+  transform: translateX(50px);
+ }
+ 
